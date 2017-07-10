@@ -6,7 +6,7 @@ import { ForSaleComponent } from './for-sale/for-sale.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { PersonalsComponent } from './personals/personals.component';
 import { HousingDetailComponent } from './housing-detail/housing-detail.component';
-
+import { ForSaleDetailComponent } from './for-sale-detail/for-sale-detail.component'
 
 const appRoutes: Routes = [
   {
@@ -32,6 +32,10 @@ const appRoutes: Routes = [
   {
     path: 'housing/:id',
     component: HousingDetailComponent
+  },
+  {
+    path: 'for-sale/:id',
+    component: ForSaleDetailComponent
   }
 
 ];
