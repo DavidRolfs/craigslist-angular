@@ -1,7 +1,9 @@
 <h1> Housing </h1>
 
-<ul>
-  <li> Three Bedroom Townhome</li>
-  <li> Flat in Downtown</li>
-  <li> One Bedroom Apt. </li>
-</ul>
+
+
+<div *ngFor="let house of housings" (click)="goToDetailPage(house)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{house.name}}</em> ${{house.price}}</h3>
+  </div>
+</div>

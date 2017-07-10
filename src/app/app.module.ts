@@ -10,6 +10,7 @@ import { HousingComponent } from './housing/housing.component';
 import { ForSaleComponent } from './for-sale/for-sale.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { PersonalsComponent } from './personals/personals.component';
+import { HousingDetailComponent } from './housing-detail/housing-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PersonalsComponent } from './personals/personals.component';
     HousingComponent,
     ForSaleComponent,
     JobsComponent,
-    PersonalsComponent
+    PersonalsComponent,
+    HousingDetailComponent
   ],
   imports: [
     BrowserModule,
